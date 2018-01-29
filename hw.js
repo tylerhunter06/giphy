@@ -20,7 +20,7 @@ $(document).ready(function() {
         $(".animal-button").removeClass("active");
         $(this).addClass("active");
         var type = $(this).attr("data-type");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=eSPHWSejHmToHYg6IW6zVpqpmEMxNVin";
         $.ajax({
             url: queryURL,
             method: "GET"
